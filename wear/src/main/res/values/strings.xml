@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmarthomeWear</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="message_canceled">Canceled!</string>
+    <string name="message_confirmed">Confirmed!</string>
+    <string name="trigger_button_text">.</string>
+</resources>

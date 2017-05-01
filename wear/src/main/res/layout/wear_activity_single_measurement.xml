@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#232E33"
+        app:layout_box="left|bottom|right">
+
+        <TextView
+            android:id="@+id/measurementTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="bottom"
+            android:text="Measurement"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/measurementTextView"
+            android:cacheColorHint="#FFFFFF"
+            android:paddingTop="10dp" />
+
+
+    </RelativeLayout>
+</android.support.wearable.view.BoxInsetLayout>

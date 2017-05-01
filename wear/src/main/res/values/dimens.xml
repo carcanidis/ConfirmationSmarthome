@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- BoxInset demo-->
+    <dimen name="circle_big_size">50dp</dimen>
+
+    <!-- DelayedConfirmationView Demo -->
+    <dimen name="delayed_confirmation_border_width">10dp</dimen>
+    <dimen name="delayed_confirmation_radius">50dp</dimen>
+    <dimen name="delayed_confirmation_size">100dp</dimen>
+    <dimen name="delayed_confirmation_size_minus_border">80dp</dimen>
+    <dimen name="trigger_button_size">100dp</dimen>
+
+    <!-- WatchViewStub Demo -->
+    <dimen name="stub_margin">30dp</dimen>
+
+    <!-- Watch Face demo -->
+    <dimen name="x_offset">15dp</dimen>
+    <dimen name="y_offset">90dp</dimen>
+    <dimen name="text_size">40sp</dimen>
+    <dimen name="temp_text_size">20sp</dimen>
+    <dimen name="horizontal_margin">5dp</dimen>
+    <dimen name="watch_face_config_margin">10dp</dimen>
+</resources>
